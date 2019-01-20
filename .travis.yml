@@ -1,15 +1,15 @@
-secure: "wRaVOmZKVwREJQolDWvccFNuX/xt5WudH3zC2Xeve1TWATbTz+845OD7w+ukWrqEhtkKIy7jQ9Bf5pBvIQin4WuJQ0ELvktIj8N28bhfqoF6ng/OkGEyWA1rfuofQ7T38JdaWuGCxK+AUUiIcQEB6hdCw6y69IXHRvZ6g/3Z+le4XckNd+5OYkAyjHuwGyaPBJJf9pKaCXeopIT28JdEdqtQhgcpd2NZ64GoI4CGJ7A9wLRO3x66KYk/Ves0XzSw+uJJmHBnz5nIZZhEXdYkgZ/gCsRLSNJSQhkfW/lcFHmDj6g1prA4lQ8nsu8m5hdpIzR8eZ8dEWjOKEtHL2ZA9U12+gQIPxNSXvoOFSw8Bv9hTpxRWpp47uQPMjHWm+STUSEAEjy0IcrNfLNIN6ebHtRQ+DA1wRgHCGVrNeHq1wzCPgSZoNfBHYmJuu+dEALFHyPADHkA7zNYnMy9TCj//oE5n9kLcdMWKKDuJepxH+9gE7HJ/bYZZVztZ60GcviDgsjZ0vafxZ7Kr1iMcV3qEKnseqXWe6uveS9Q4/rJaRtQ/Ja5w0GmXr3CEkGono06qoHq4MxucKi35BDITZ9CukVJyfVny9cmWfkOtKQyIZWnlkz1CjQSa+h30CnZi3at0zkgxNvysNyRazR+vxvKeRK7F2eI2mmR/7A1jvJU2zg="
-
 language: python
-
 services:
-  - docker
+- docker
 python:
-  - "2.7"
+- '2.7'
 install:
-  - make deps
+- make deps
 script:
-  - make lint
-  - make test
-  - make docker_build
-  - make docker_push
+- make lint
+- make test
+- make docker_build
+- make docker_push
+env:
+  global:
+    secure: sAXg9j4/XaXrRuUYqTaUBnK0MYqTxZT/bCeCTCCtsrn8nUpAd13YXGSWVRSORuG9iTCNOfqHR7LK0WiWF2Ft3AIS5iACsb8usvOZBQ5aWI0P1k4UgWCpXqn/svDDG7u3CnpYHhPwQdmnxShNE1FCP/WuwkvIw6irHDn0isGJvK9jxp1l2u3YlmkX4az3D9zr2n1aJ+iw41LhRGvVqh1ver01rRFzcla7sPGxZmVFETWRIV9eIPqBhX4jIlS9xj92lyspPnqzsgJBpEUpP7DbzD2u/rB0n6sW3DB1NwdTbtSsYWA4oy7WVTXHw7MavIkWwOClb7+iBgT0pV3N6AzGVlx+TbYAdf+ABqog25TrxU+rokAdvOqOW89Xd233thk409kPWitgzpPk+Ah0rYCbJQ8zHSqK3mDZMAYvoxhQ7IoARUwE3q/QJPJhCvfI0+pwPbD4axdxPP7uuM7OfmNbb66bracWQB6qppRwd063RghWDfXMp34vvUq+mu0u38tM5Zz77oSnCNCPXHG/pACTdcOlF5oG50iMPtxVxymtwrINQv1Tfeo48JoWdXR+DQeqSpWqZXXrZA+qQ9SeTswQw0mO5vCVYkOKPKtxwDqS+F6IqCOdbsIsmHecTy4oJWvwIny6Z3jfpSD0tBg46XoKgJ0AZcN5NHui3aevsNJkkY0=
