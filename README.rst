@@ -72,7 +72,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     aplikacja monitorowana jest przez Statuscake, pod adresem aplikacji na Heroku
 
-[![Build Status](https://app.statuscake.com/button/index.php?Track=7Stc4RgmVs&Days=1&Design=2)](https://www.statuscake.com)
+    .. image:: https://app.statuscake.com/button/index.php?Track=7Stc4RgmVs&Days=1&Design=2
+        :target: https://www.statuscake.com
+
 
 Pomocnicze
 ==========
