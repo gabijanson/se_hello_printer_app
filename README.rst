@@ -58,9 +58,17 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Integracja z TravisCI:
 
-  ::
+    plik .travis.yml zawiera informacje i skrypty które wykonywać ma travis podczas builda
 
-    ...
+
+- Integracja z Heroku:
+    plik .travis.yml zawiera ustawienia do automatycznego deployu na heroku,
+    gdzie dodana jest nazwa aplikacji z Heroku
+    oraz zmienna HEROKU_API_KEY, która dodana jest w ustawieniach Travisa dla aplikacji
+
+- Monitoring ze Statuscake
+
+    aplikacja monitorowana jest przez Statuscake, pod adresem aplikacji na Heroku
 
 
 Pomocnicze
