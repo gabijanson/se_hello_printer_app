@@ -60,7 +60,8 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     plik .travis.yml zawiera informacje i skrypty które wykonywać ma travis podczas builda
 
-[![Build Status](https://travis-ci.org/gabijanson/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/gabijanson/se_hello_printer_app)
+    .. image:: https://travis-ci.org/gabijanson/se_hello_printer_app.svg?branch=master
+        :target: https://travis-ci.org/gabijanson/se_hello_printer_app
 
 - Integracja z Heroku:
     plik .travis.yml zawiera ustawienia do automatycznego deployu na heroku,
