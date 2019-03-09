@@ -71,6 +71,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
     aplikacja monitorowana jest przez Statuscake, pod adresem aplikacji na Heroku
 
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=7Stc4RgmVs&Days=1&Design=2" /></a>
 
 Pomocnicze
 ==========
